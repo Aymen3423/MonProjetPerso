@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Tu t'appelle comment ?");
+﻿
+Console.WriteLine("Tu t'appelle comment ?");
 string name = Console.ReadLine();
 if (name == null)
 {
@@ -13,3 +14,8 @@ if(age < 18)
     Console.WriteLine("Tu n'est pas majeur quitte le programe en appuyant sur un touche ");
     Console.ReadLine();
 }
+
+Console.WriteLine($"Tu t'applle {name} et tu a {age}");
+
+
+
